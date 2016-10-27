@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lvModelImages"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:paddingBottom="4sp"
+            android:divider="@null"
+            android:background="@color/grid_view_background"/>
+
+        <LinearLayout
+            android:id="@+id/llSubscribeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@color/cell_background"
+            android:visibility="gone"
+            android:gravity="center|top">
+
+            <include layout="@layout/model_header" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12sp"
+                android:layout_marginBottom="12sp"
+                android:text="@string/you_are_not_subscribed"
+                android:textColor="@color/default_text_color"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subscribe"
+                android:textColor="@color/default_text_color"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imgClose"-->
+        <!--android:contentDescription="@string/app_name"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/ic_close"/>-->
+
+</RelativeLayout>

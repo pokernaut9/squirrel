@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Squirrel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_add">Add</string>
+    <string name="age">Age: %1$s</string>
+    <string name="image_count">%1$s Images</string>
+
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="error">ERROR:&#160;</string>
+    <string name="couple">Couple</string>
+    <string name="group">Group</string>
+    <string name="failed_to_load_model_data">Failed to load model data</string>
+    <string name="all_models">All Models</string>
+    <string name="view_all_models">All Models</string>
+    <string name="my_models">My Models</string>
+    <string name="view_my_models">Subscribed Models</string>
+    <string name="search">Search&#8230;</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password"><u>Forgot Password</u></string>
+    <string name="register"><u>Register</u></string>
+    <string name="vertical_bar">|</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="username">Username</string>
+    <string name="agree_to_terms">I am over 18 years of age and I accept these <u>Terms &amp; Conditions</u> and <u>Privacy Policy</u></string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="year">Year</string>
+    <string name="dob">Date of Birth:</string>
+    <string name="register_title">Register</string>
+    <string name="application_version_error_title">Version Error</string>
+    <string name="application_version_error_message">This version is out of date.\nWould you like to update now?</string>
+    <string name="model">Model</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="filters">Filters</string>
+    <string name="no_results">No Models Found.\nPlease adjust filters.</string>
+    <string name="results_count">%d Results</string>
+    <string name="subscribe_message">You are not subscribed to this model.\nWould you like to subscribe now?</string>
+    <string name="you_are_not_subscribed">You are not subscribed to this model.\nPlease click the \"Subscribe\" button to view model images.</string>
+    <string name="login_error">Please enter both email address and password</string>
+    <string name="an_error_occured">An error occurred while processing your request. Please try again.</string>
+    <string name="please_enter_firstname">Please enter your first name</string>
+    <string name="please_enter_lastname">Please enter your last name</string>
+    <string name="please_agree_to_terms">Please agree to the terms</string>
+    <string name="you_do_not_have_any_albums">You don\'t have any albums!\nClick the \"+\" button above to create a new album,</string>
+    <string name="add_new_album">Add new album</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="please_wait">Please Wait&#8230;</string>
+    <string name="name">Name</string>
+    <string name="please_enter_album_name">Please enter an album name</string>
+    <string name="album">Album</string>
+
+</resources>

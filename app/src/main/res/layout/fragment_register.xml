@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#666">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:gravity="center"
+            android:text="@string/register_title"
+            android:textColor="@color/white"
+            android:textSize="36sp"/>
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginBottom="8sp"
+            android:padding="4sp"
+            android:background="@color/edit_text_background"
+            android:hint="@string/first_name"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/hint_text_color"/>
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginBottom="8sp"
+            android:padding="4sp"
+            android:background="@color/edit_text_background"
+            android:hint="@string/last_name"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/hint_text_color"/>
+
+        <EditText
+            android:id="@+id/etEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginBottom="8sp"
+            android:padding="4sp"
+            android:background="@color/edit_text_background"
+            android:hint="@string/email_address"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/hint_text_color"/>
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginBottom="8sp"
+            android:padding="4sp"
+            android:background="@color/edit_text_background"
+            android:hint="@string/username"
+            android:textColorHint="@color/hint_text_color"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:text="@string/dob"
+            android:textColor="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18sp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:baselineAligned="false">
+
+            <Spinner
+                android:id="@+id/spMonth"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="12sp"
+                android:entries="@array/months"/>
+
+            <Spinner
+                android:id="@+id/spDay"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="12sp"
+                android:entries="@array/days"/>
+
+
+            <Spinner
+                android:id="@+id/spYear"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="12sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18sp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/chkAgreeToTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8sp"/>
+
+            <TextView
+                android:id="@+id/tvTOS"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/agree_to_terms"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/register_button_color"
+            android:text="@string/register"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</ScrollView>

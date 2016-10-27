@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+
+    <item android:id="@+id/action_filter"
+        android:icon="@drawable/ic_filter"
+        android:title="@string/action_filter"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/ic_add"
+        android:title="@string/action_filter"
+        android:showAsAction="ifRoom" />
+
+</menu>

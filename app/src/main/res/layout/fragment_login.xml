@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="@color/fragment_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8sp"
+        android:padding="8sp"
+        android:gravity="center"
+        android:background="@drawable/rounded_edges"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginBottom="8sp"
+            android:padding="4sp"
+            android:background="@color/edit_text_background"
+            android:hint="@string/email_address"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hint_text_color"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginBottom="8sp"
+            android:padding="4sp"
+            android:background="@color/edit_text_background"
+            android:hint="@string/password"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hint_text_color"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="38sp"
+            android:background="@color/button_background_color"
+            android:textColor="@color/white"
+            android:text="@string/login"/>
+
+        <TextView
+            android:id="@+id/tvForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:padding="12sp"
+            android:gravity="end"
+            android:text="@string/forgot_password"
+            android:textColor="@color/link_color"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32sp"
+            android:layout_marginRight="32sp"
+            android:background="@color/register_button_color"
+            android:text="@string/register"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

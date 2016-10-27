@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="actionbar_background">#5de3b5</color>
+    <color name="actionbar_text_color">#fff</color>
+
+    <color name="tab_strip_background_color">#555</color>
+    <color name="tab_strip_text_color">#fff</color>
+
+    <color name="fragment_background">#ddd</color>
+
+    <color name="cell_text_color">#fff</color>
+    <color name="cell_background">#555</color>
+
+    <color name="edit_text_background">#ddd</color>
+
+    <color name="filter_buttons_background">#aaa</color>
+    <color name="filter_buttons_selected_background">#5de3b5</color>
+
+    <color name="female_color">#ffffaebf</color>
+    <color name="male_color">#ff8ac9ff</color>
+    <color name="couple_color">#ffc66eff</color>
+    <color name="group_color">#ffff9d6b</color>
+
+    <color name="default_text_color">#fff</color>
+    <color name="semi_transparent">#dd000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#999</color>
+    <color name="dark_gray">#333</color>
+    <color name="link_color">#aaa</color>
+    <color name="hint_text_color">#fff</color>
+    <color name="button_background_color">#333</color>
+    <color name="register_button_color">#5de3b5</color>
+    <color name="grid_view_background">#ddd</color>
+    <color name="list_view_background">#ddd</color>
+
+</resources>
